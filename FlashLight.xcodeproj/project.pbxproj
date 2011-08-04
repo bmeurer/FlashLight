@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C750DA3D13EA9B6D00531734 /* Tick.caf in Resources */ = {isa = PBXBuildFile; fileRef = C750DA3C13EA9B6D00531734 /* Tick.caf */; };
+		C750DA3F13EA9D8A00531734 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C750DA3E13EA9D8A00531734 /* AudioToolbox.framework */; };
+		C750DA4313EAA6E300531734 /* FLInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C750DA4113EAA6E300531734 /* FLInfoViewController.m */; };
+		C750DA4413EAA6E300531734 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C750DA4213EAA6E300531734 /* InfoViewController.xib */; };
+		C750DA4613EAB5C700531734 /* InfoBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA4513EAB5C700531734 /* InfoBackground@2x.png */; };
+		C750DA4E13EAE7BB00531734 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA4A13EAE7BB00531734 /* Default.png */; };
+		C750DA4F13EAE7BB00531734 /* InfoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA4B13EAE7BB00531734 /* InfoBackground.png */; };
+		C750DA5013EAE7BB00531734 /* Led.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA4C13EAE7BB00531734 /* Led.png */; };
+		C750DA5113EAE7BB00531734 /* Switch.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA4D13EAE7BB00531734 /* Switch.png */; };
+		C750DA6413EAEAFC00531734 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA5D13EAEAFC00531734 /* Icon-72.png */; };
+		C750DA6513EAEAFC00531734 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA5E13EAEAFC00531734 /* Icon-Small-50.png */; };
+		C750DA6613EAEAFC00531734 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA5F13EAEAFC00531734 /* Icon-Small.png */; };
+		C750DA6713EAEAFC00531734 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA6013EAEAFC00531734 /* Icon-Small@2x.png */; };
+		C750DA6813EAEAFC00531734 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA6113EAEAFC00531734 /* Icon.png */; };
+		C750DA6913EAEAFC00531734 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA6213EAEAFC00531734 /* Icon@2x.png */; };
+		C750DA6A13EAEAFC00531734 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = C750DA6313EAEAFC00531734 /* iTunesArtwork */; };
+		C78667ED13E72303008426E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78667EC13E72303008426E9 /* UIKit.framework */; };
+		C78667EF13E72303008426E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78667EE13E72303008426E9 /* Foundation.framework */; };
+		C78667F113E72303008426E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78667F013E72303008426E9 /* CoreGraphics.framework */; };
+		C78667F913E72303008426E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C78667F813E72303008426E9 /* main.m */; };
+		C78667FD13E72303008426E9 /* FLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C78667FC13E72303008426E9 /* FLAppDelegate.m */; };
+		C786680313E72303008426E9 /* FLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C786680213E72303008426E9 /* FLRootViewController.m */; };
+		C786681113E7242F008426E9 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C786680F13E7242F008426E9 /* RootViewController.xib */; };
+		C786681213E7242F008426E9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C786681013E7242F008426E9 /* MainWindow.xib */; };
+		C786681613E7243E008426E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C786681313E7243E008426E9 /* Default@2x.png */; };
+		C786681713E7243E008426E9 /* Led@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C786681413E7243E008426E9 /* Led@2x.png */; };
+		C786681813E7243E008426E9 /* Switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C786681513E7243E008426E9 /* Switch@2x.png */; };
+		C786681C13E72F89008426E9 /* FLTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C786681B13E72F89008426E9 /* FLTouchView.m */; };
+		C786681E13E75083008426E9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C786681D13E75083008426E9 /* AVFoundation.framework */; };
+		C786682113E800CF008426E9 /* FLTorch.m in Sources */ = {isa = PBXBuildFile; fileRef = C786682013E800CE008426E9 /* FLTorch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C750DA3C13EA9B6D00531734 /* Tick.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tick.caf; sourceTree = "<group>"; };
+		C750DA3E13EA9D8A00531734 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C750DA4013EAA6E300531734 /* FLInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLInfoViewController.h; sourceTree = "<group>"; };
+		C750DA4113EAA6E300531734 /* FLInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLInfoViewController.m; sourceTree = "<group>"; };
+		C750DA4213EAA6E300531734 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		C750DA4513EAB5C700531734 /* InfoBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoBackground@2x.png"; sourceTree = "<group>"; };
+		C750DA4A13EAE7BB00531734 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C750DA4B13EAE7BB00531734 /* InfoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBackground.png; sourceTree = "<group>"; };
+		C750DA4C13EAE7BB00531734 /* Led.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Led.png; sourceTree = "<group>"; };
+		C750DA4D13EAE7BB00531734 /* Switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Switch.png; sourceTree = "<group>"; };
+		C750DA5D13EAEAFC00531734 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		C750DA5E13EAEAFC00531734 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		C750DA5F13EAEAFC00531734 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		C750DA6013EAEAFC00531734 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C750DA6113EAEAFC00531734 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C750DA6213EAEAFC00531734 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C750DA6313EAEAFC00531734 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		C78667E813E72303008426E9 /* FlashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78667EC13E72303008426E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C78667EE13E72303008426E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C78667F013E72303008426E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C78667F413E72303008426E9 /* FlashLight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashLight-Info.plist"; sourceTree = "<group>"; };
+		C78667F813E72303008426E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C78667FA13E72303008426E9 /* FlashLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashLight-Prefix.pch"; sourceTree = "<group>"; };
+		C78667FB13E72303008426E9 /* FLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAppDelegate.h; sourceTree = "<group>"; };
+		C78667FC13E72303008426E9 /* FLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAppDelegate.m; sourceTree = "<group>"; };
+		C786680113E72303008426E9 /* FLRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLRootViewController.h; sourceTree = "<group>"; };
+		C786680213E72303008426E9 /* FLRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLRootViewController.m; sourceTree = "<group>"; };
+		C786680F13E7242F008426E9 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		C786681013E7242F008426E9 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C786681313E7243E008426E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C786681413E7243E008426E9 /* Led@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Led@2x.png"; sourceTree = "<group>"; };
+		C786681513E7243E008426E9 /* Switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Switch@2x.png"; sourceTree = "<group>"; };
+		C786681A13E72F89008426E9 /* FLTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTouchView.h; sourceTree = "<group>"; };
+		C786681B13E72F89008426E9 /* FLTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTouchView.m; sourceTree = "<group>"; };
+		C786681D13E75083008426E9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C786681F13E800CE008426E9 /* FLTorch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTorch.h; sourceTree = "<group>"; };
+		C786682013E800CE008426E9 /* FLTorch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTorch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78667E513E72303008426E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C750DA3F13EA9D8A00531734 /* AudioToolbox.framework in Frameworks */,
+				C786681E13E75083008426E9 /* AVFoundation.framework in Frameworks */,
+				C78667ED13E72303008426E9 /* UIKit.framework in Frameworks */,
+				C78667EF13E72303008426E9 /* Foundation.framework in Frameworks */,
+				C78667F113E72303008426E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C750DA3B13EA9B5D00531734 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C750DA3C13EA9B6D00531734 /* Tick.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		C750DA4713EAE5F500531734 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C750DA4013EAA6E300531734 /* FLInfoViewController.h */,
+				C750DA4113EAA6E300531734 /* FLInfoViewController.m */,
+				C786680113E72303008426E9 /* FLRootViewController.h */,
+				C786680213E72303008426E9 /* FLRootViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C750DA4813EAE60300531734 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C786681A13E72F89008426E9 /* FLTouchView.h */,
+				C786681B13E72F89008426E9 /* FLTouchView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C750DA4913EAE61600531734 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				C786681F13E800CE008426E9 /* FLTorch.h */,
+				C786682013E800CE008426E9 /* FLTorch.m */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		C750DA5B13EAEAD700531734 /* Launch Images */ = {
+			isa = PBXGroup;
+			children = (
+				C750DA4A13EAE7BB00531734 /* Default.png */,
+				C786681313E7243E008426E9 /* Default@2x.png */,
+			);
+			name = "Launch Images";
+			sourceTree = "<group>";
+		};
+		C750DA5C13EAEAE600531734 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				C750DA5D13EAEAFC00531734 /* Icon-72.png */,
+				C750DA5E13EAEAFC00531734 /* Icon-Small-50.png */,
+				C750DA5F13EAEAFC00531734 /* Icon-Small.png */,
+				C750DA6013EAEAFC00531734 /* Icon-Small@2x.png */,
+				C750DA6113EAEAFC00531734 /* Icon.png */,
+				C750DA6213EAEAFC00531734 /* Icon@2x.png */,
+				C750DA6313EAEAFC00531734 /* iTunesArtwork */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		C78667DD13E72303008426E9 = {
+			isa = PBXGroup;
+			children = (
+				C78667F213E72303008426E9 /* FlashLight */,
+				C78667EB13E72303008426E9 /* Frameworks */,
+				C78667E913E72303008426E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78667E913E72303008426E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C78667E813E72303008426E9 /* FlashLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78667EB13E72303008426E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C750DA3E13EA9D8A00531734 /* AudioToolbox.framework */,
+				C786681D13E75083008426E9 /* AVFoundation.framework */,
+				C78667F013E72303008426E9 /* CoreGraphics.framework */,
+				C78667EE13E72303008426E9 /* Foundation.framework */,
+				C78667EC13E72303008426E9 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C78667F213E72303008426E9 /* FlashLight */ = {
+			isa = PBXGroup;
+			children = (
+				C786681913E72472008426E9 /* Classes */,
+				C786680C13E7232C008426E9 /* Resources */,
+				C78667F313E72303008426E9 /* Other Sources */,
+			);
+			path = FlashLight;
+			sourceTree = "<group>";
+		};
+		C78667F313E72303008426E9 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C78667F813E72303008426E9 /* main.m */,
+				C78667FA13E72303008426E9 /* FlashLight-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		C786680C13E7232C008426E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C786680E13E7240E008426E9 /* IBFiles */,
+				C750DA5C13EAEAE600531734 /* Icons */,
+				C786680D13E72332008426E9 /* Images */,
+				C750DA3B13EA9B5D00531734 /* Sounds */,
+				C750DA5B13EAEAD700531734 /* Launch Images */,
+				C78667F413E72303008426E9 /* FlashLight-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C786680D13E72332008426E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C750DA4B13EAE7BB00531734 /* InfoBackground.png */,
+				C750DA4513EAB5C700531734 /* InfoBackground@2x.png */,
+				C750DA4C13EAE7BB00531734 /* Led.png */,
+				C786681413E7243E008426E9 /* Led@2x.png */,
+				C750DA4D13EAE7BB00531734 /* Switch.png */,
+				C786681513E7243E008426E9 /* Switch@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C786680E13E7240E008426E9 /* IBFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C750DA4213EAA6E300531734 /* InfoViewController.xib */,
+				C786681013E7242F008426E9 /* MainWindow.xib */,
+				C786680F13E7242F008426E9 /* RootViewController.xib */,
+			);
+			name = IBFiles;
+			sourceTree = "<group>";
+		};
+		C786681913E72472008426E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C750DA4913EAE61600531734 /* Domain */,
+				C750DA4813EAE60300531734 /* Views */,
+				C750DA4713EAE5F500531734 /* View Controllers */,
+				C78667FB13E72303008426E9 /* FLAppDelegate.h */,
+				C78667FC13E72303008426E9 /* FLAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C78667E713E72303008426E9 /* FlashLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C786680913E72304008426E9 /* Build configuration list for PBXNativeTarget "FlashLight" */;
+			buildPhases = (
+				C78667E413E72303008426E9 /* Sources */,
+				C78667E513E72303008426E9 /* Frameworks */,
+				C78667E613E72303008426E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashLight;
+			productName = FlashLight;
+			productReference = C78667E813E72303008426E9 /* FlashLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78667DF13E72303008426E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Universität Siegen";
+			};
+			buildConfigurationList = C78667E213E72303008426E9 /* Build configuration list for PBXProject "FlashLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C78667DD13E72303008426E9;
+			productRefGroup = C78667E913E72303008426E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C78667E713E72303008426E9 /* FlashLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78667E613E72303008426E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C786681113E7242F008426E9 /* RootViewController.xib in Resources */,
+				C786681213E7242F008426E9 /* MainWindow.xib in Resources */,
+				C786681613E7243E008426E9 /* Default@2x.png in Resources */,
+				C786681713E7243E008426E9 /* Led@2x.png in Resources */,
+				C786681813E7243E008426E9 /* Switch@2x.png in Resources */,
+				C750DA3D13EA9B6D00531734 /* Tick.caf in Resources */,
+				C750DA4413EAA6E300531734 /* InfoViewController.xib in Resources */,
+				C750DA4613EAB5C700531734 /* InfoBackground@2x.png in Resources */,
+				C750DA4E13EAE7BB00531734 /* Default.png in Resources */,
+				C750DA4F13EAE7BB00531734 /* InfoBackground.png in Resources */,
+				C750DA5013EAE7BB00531734 /* Led.png in Resources */,
+				C750DA5113EAE7BB00531734 /* Switch.png in Resources */,
+				C750DA6413EAEAFC00531734 /* Icon-72.png in Resources */,
+				C750DA6513EAEAFC00531734 /* Icon-Small-50.png in Resources */,
+				C750DA6613EAEAFC00531734 /* Icon-Small.png in Resources */,
+				C750DA6713EAEAFC00531734 /* Icon-Small@2x.png in Resources */,
+				C750DA6813EAEAFC00531734 /* Icon.png in Resources */,
+				C750DA6913EAEAFC00531734 /* Icon@2x.png in Resources */,
+				C750DA6A13EAEAFC00531734 /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78667E413E72303008426E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78667F913E72303008426E9 /* main.m in Sources */,
+				C78667FD13E72303008426E9 /* FLAppDelegate.m in Sources */,
+				C786680313E72303008426E9 /* FLRootViewController.m in Sources */,
+				C786681C13E72F89008426E9 /* FLTouchView.m in Sources */,
+				C786682113E800CF008426E9 /* FLTorch.m in Sources */,
+				C750DA4313EAA6E300531734 /* FLInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C786680713E72304008426E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 24;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		C786680813E72304008426E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 24;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		C786680A13E72304008426E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashLight/FlashLight-Prefix.pch";
+				INFOPLIST_FILE = "FlashLight/FlashLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C786680B13E72304008426E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashLight/FlashLight-Prefix.pch";
+				INFOPLIST_FILE = "FlashLight/FlashLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78667E213E72303008426E9 /* Build configuration list for PBXProject "FlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C786680713E72304008426E9 /* Debug */,
+				C786680813E72304008426E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C786680913E72304008426E9 /* Build configuration list for PBXNativeTarget "FlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C786680A13E72304008426E9 /* Debug */,
+				C786680B13E72304008426E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78667DF13E72303008426E9 /* Project object */;
+}
