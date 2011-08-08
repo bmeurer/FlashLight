@@ -28,16 +28,11 @@
 #import <UIKit/UIKit.h>
 
 
-@class FLRootViewController;
-
-
 @interface FLAppDelegate : NSObject <UIApplicationDelegate> {
 @private
-    FLRootViewController *_rootViewController;
-    UIWindow             *_window;
+    UIWindow *_window;
 }
 
-@property (nonatomic, retain) FLRootViewController *rootViewController;
 @property (nonatomic, retain) UIWindow *window;
 
 @end

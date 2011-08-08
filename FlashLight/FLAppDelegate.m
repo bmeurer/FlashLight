@@ -31,13 +31,11 @@
 
 @implementation FLAppDelegate
 
-@synthesize rootViewController = _rootViewController;
 @synthesize window = _window;
 
 
 - (void)dealloc
 {
-    [_rootViewController release], _rootViewController = nil;
     [_window release], _window = nil;
     [super dealloc];
 }
@@ -49,7 +47,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [self.window setRootViewController:self.rootViewController];
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];;
+    self.window.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Default"]];
+    self.window.rootViewController = [[[FLRootViewController alloc] initWithNibName:@"RootViewController" bundle:nil] autorelease];
     [self.window makeKeyAndVisible];
     return YES;
 }
