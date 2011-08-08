@@ -47,7 +47,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];;
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     self.window.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Default"]];
     self.window.rootViewController = [[[FLRootViewController alloc] initWithNibName:@"RootViewController" bundle:nil] autorelease];
     [self.window makeKeyAndVisible];
