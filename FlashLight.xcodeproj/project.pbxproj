@@ -10,7 +10,6 @@
 		C750DA3D13EA9B6D00531734 /* Tick.caf in Resources */ = {isa = PBXBuildFile; fileRef = C750DA3C13EA9B6D00531734 /* Tick.caf */; };
 		C750DA3F13EA9D8A00531734 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C750DA3E13EA9D8A00531734 /* AudioToolbox.framework */; };
 		C750DA4313EAA6E300531734 /* FLInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C750DA4113EAA6E300531734 /* FLInfoViewController.m */; };
-		C750DA4413EAA6E300531734 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C750DA4213EAA6E300531734 /* InfoViewController.xib */; };
 		C750DA4613EAB5C700531734 /* InfoBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA4513EAB5C700531734 /* InfoBackground@2x.png */; };
 		C750DA4E13EAE7BB00531734 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA4A13EAE7BB00531734 /* Default.png */; };
 		C750DA4F13EAE7BB00531734 /* InfoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C750DA4B13EAE7BB00531734 /* InfoBackground.png */; };
@@ -36,6 +35,7 @@
 		C786681C13E72F89008426E9 /* FLTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C786681B13E72F89008426E9 /* FLTouchView.m */; };
 		C786681E13E75083008426E9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C786681D13E75083008426E9 /* AVFoundation.framework */; };
 		C786682113E800CF008426E9 /* FLTorch.m in Sources */ = {isa = PBXBuildFile; fileRef = C786682013E800CE008426E9 /* FLTorch.m */; };
+		C7EB6E3813F038730040AE5C /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7EB6E3A13F038730040AE5C /* InfoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,6 @@
 		C750DA3E13EA9D8A00531734 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C750DA4013EAA6E300531734 /* FLInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLInfoViewController.h; sourceTree = "<group>"; };
 		C750DA4113EAA6E300531734 /* FLInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLInfoViewController.m; sourceTree = "<group>"; };
-		C750DA4213EAA6E300531734 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
 		C750DA4513EAB5C700531734 /* InfoBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoBackground@2x.png"; sourceTree = "<group>"; };
 		C750DA4A13EAE7BB00531734 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C750DA4B13EAE7BB00531734 /* InfoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBackground.png; sourceTree = "<group>"; };
@@ -76,6 +75,8 @@
 		C786681D13E75083008426E9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C786681F13E800CE008426E9 /* FLTorch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTorch.h; sourceTree = "<group>"; };
 		C786682013E800CE008426E9 /* FLTorch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTorch.m; sourceTree = "<group>"; };
+		C7EB6E3913F038730040AE5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/InfoViewController.xib; sourceTree = "<group>"; };
+		C7EB6E3B13F039770040AE5C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/InfoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,7 +232,7 @@
 		C786680E13E7240E008426E9 /* IBFiles */ = {
 			isa = PBXGroup;
 			children = (
-				C750DA4213EAA6E300531734 /* InfoViewController.xib */,
+				C7EB6E3A13F038730040AE5C /* InfoViewController.xib */,
 				C786680F13E7242F008426E9 /* RootViewController.xib */,
 			);
 			name = IBFiles;
@@ -284,6 +285,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = C78667DD13E72303008426E9;
 			productRefGroup = C78667E913E72303008426E9 /* Products */;
@@ -305,7 +307,7 @@
 				C786681713E7243E008426E9 /* Led@2x.png in Resources */,
 				C786681813E7243E008426E9 /* Switch@2x.png in Resources */,
 				C750DA3D13EA9B6D00531734 /* Tick.caf in Resources */,
-				C750DA4413EAA6E300531734 /* InfoViewController.xib in Resources */,
+				C7EB6E3813F038730040AE5C /* InfoViewController.xib in Resources */,
 				C750DA4613EAB5C700531734 /* InfoBackground@2x.png in Resources */,
 				C750DA4E13EAE7BB00531734 /* Default.png in Resources */,
 				C750DA4F13EAE7BB00531734 /* InfoBackground.png in Resources */,
@@ -356,6 +358,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7EB6E3A13F038730040AE5C /* InfoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EB6E3913F038730040AE5C /* en */,
+				C7EB6E3B13F039770040AE5C /* de */,
+			);
+			name = InfoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C786680713E72304008426E9 /* Debug */ = {
