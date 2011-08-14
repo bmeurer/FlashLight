@@ -276,6 +276,7 @@
 		C78667DF13E72303008426E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Universität Siegen";
 			};
 			buildConfigurationList = C78667E213E72303008426E9 /* Build configuration list for PBXProject "FlashLight" */;
